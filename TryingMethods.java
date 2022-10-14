@@ -13,5 +13,11 @@ public class TryingMethods {
 
     }
 
-    public
+    public static int thousandSum() {
+
+    }
+
+    public static void betweenSum() {
+        
+    }
 }
