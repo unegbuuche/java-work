@@ -51,7 +51,15 @@ public class TryingMethods {
     }
 
     public static int thousandSum() {
+        int sum = 0;
+        int count = 1;
 
+        while(count < 1000) {
+            sum += count;
+            count += 1;
+        }
+
+        return sum;
     }
 
     public static void betweenSum() {
