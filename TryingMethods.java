@@ -4,4 +4,14 @@ public class TryingMethods {
     public static void main(String[] args) {
         
     }
+
+    public string dayOfWeek(int number) {
+
+    }
+
+    public void printGrade(int grade) {
+
+    }
+
+    public
 }
