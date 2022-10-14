@@ -27,7 +27,27 @@ public class TryingMethods {
     }
 
     public void printGrade(int grade) {
-        
+        if(grade < 40) {
+            System.out.println("Result:  F");
+        }
+        else if(grade < 45) {
+            System.out.println("Result:  E");
+        }
+        else if(grade < 50) {
+            System.out.println("Result:  D");
+        }
+        else if(grade < 60) {
+            System.out.println("Result:  C");
+        }
+        else if(grade < 70) {
+            System.out.println("Result:  B");
+        }
+        else if(grade <= 100) {
+            System.out.println("Result:  A");
+        }
+        else {
+            System.out.println("Don't know about this grade...");
+        }
     }
 
     public static int thousandSum() {
