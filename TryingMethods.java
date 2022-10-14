@@ -2,7 +2,8 @@ public class TryingMethods {
     // A class that combines static and dynamic Methods
 
     public static void main(String[] args) {
-        
+        System.out.println("The sum between 1 to 100 is:    " + thousandSum());
+        System.out.println("The sum between 12 to 103 is:    " +  betweenSum());
     }
 
     public string dayOfWeek(int number) {
@@ -63,6 +64,10 @@ public class TryingMethods {
     }
 
     public static void betweenSum() {
-
+        int sum = 0;
+        for (int i = 12; i <= 103; i++) {
+            sum += i;
+        }
+        return sum;
     }
 }
